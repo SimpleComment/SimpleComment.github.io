@@ -3,6 +3,17 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
+
+    img {
+    transition:transform 0.25s ease;
+}
+
+img:hover {
+    -webkit-transform:scale(1.1); /* or some other value */
+    transform:scale(1.1);
+}
+
+
 body {
   padding: 25px;
   background-color: #0f0f0f;
@@ -16,14 +27,29 @@ footer {
   text-align: center;
   padding: 1px;
   background: #1c1c1c;
+  clear: both;
+  bottom: 0;
+  left: -0;
+  width: 100%;
+  height: 10%;
+  position: fixed;
+  
+  
+background-image: url("https://i.ibb.co/3pKN9qK/real-cf.png")
 }
 
-header {
+.header {
   padding: 60px;
   text-align: center;
   background: #1abc9c;
   color: white;
   font-size: 30px;
+  
+  top: 0;
+  left: -0;
+  width: 100%;
+  height: 10%;
+  position: fixed;
 }
 
 .bg {
@@ -32,6 +58,23 @@ padding: 20px;
 width: 600px;
 margin: 10px;
 }
+
+hr {
+    border-top: 1px solid #8c8b8b;
+	border-bottom: 2px solid #2e2e2e;
+}
+
+.rightavt {
+background-color: #1c1c1c;
+padding: 10px;
+margin: 0px;
+width: 150px;
+height: 150px;
+float: right;
+
+}
+
+
 </style>
 </head>
 <body>
@@ -45,21 +88,20 @@ margin: 10px;
     
     <hr>
     
+    <!-- avt -->
+    
+    <div class="rightavt">
+    <img src="https://i.imgur.com/o1Q0mwQ.jpg" style="width: 100%; height: 100%;">
+    </div>
+    
+    <!-- the postening -->
+    
+    
     <div class="bg"> 
     <div>
-      <h2>Hi</h2>
+      <h2>Thought</h2>
       <h5>Feb 14, 2023</h5>
-      <p>Maybe I should take a break from socialising given how easily overwhelmed I get.</p>
-    </div>
-  </div>
-</div>
-</div>
-
-<div class="bg"> 
-    <div>
-      <h2>Hi</h2>
-      <h5>Feb 13, 2023</h5>
-      <p>Refuge from social medias. Don't know what to type.</p>
+      <p>I want to get better at talking and responding this year.</p>
     </div>
   </div>
 </div>
