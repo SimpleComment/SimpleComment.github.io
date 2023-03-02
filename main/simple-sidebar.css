@@ -11,6 +11,7 @@
   height: 100%;
   overflow-y: auto;
   z-index: 1000;
+  top: 0;
 }
 
 #page-content-wrapper {
