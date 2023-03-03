@@ -134,6 +134,7 @@ float: right;
   font-size: 12px;
   margin: 0 0px 0;
 }
+
 .spoilertxt:hover {
   color: #7b5f36;
   background-color: #efefef; 
@@ -144,3 +145,15 @@ float: right;
   font-size: 12px;
   margin: 0 0px 0;
   }
+
+    .box {
+	width: 450px;
+	background-color: #1c1c1c;
+	margin: 50px;
+	margin-left: 120px;
+	margin-right: 120px;
+	padding: 30px;
+	padding-top: 25px;
+	padding-left: 20px;
+	padding-right: 80px;
+}
